@@ -12,8 +12,8 @@
 
 给定一个初始全为 $0$ 的序列 $A_n$，现在要维护两个操作：
 
-1. $\forall i \in [l, r], A_i \leftarrow \max(h, A_i)$
-2. $\forall i \in [l, r], A_i \leftarrow \min(h, A_i)$
+1. $\forall i \in [l, r], A_i \leftarrow \max(h, A_i)$；
+2. $\forall i \in [l, r], A_i \leftarrow \min(h, A_i)$。
 
 求做出这些操作之后的序列 ${A_n}'$。
 

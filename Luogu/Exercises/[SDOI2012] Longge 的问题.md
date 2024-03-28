@@ -17,7 +17,7 @@ $$
 \end{aligned}
 $$
 
-单点 $O(\sqrt x)$ 求 $\varphi(x)$ 即可，时间复杂度的上界为 $O(\operatorname{d}(n) \times \sqrt n)$。
+单点 $O\left(\sqrt x\right)$ 求 $\varphi(x)$ 即可，时间复杂度的上界为 $O\left(\mathrm{d}(n) \times \sqrt n\right)$。
 
 （好诶自己想出来的数论题，可惜求 $\varphi(x)$ 板子不大熟 QAQ）
 

@@ -12,9 +12,9 @@
 
 考虑如何对于一个 $i$ 如何快速统计出使得 $\langle i, j \rangle$ 是美丽对的 $j$（$1 \leq j < i$）的个数。
 
-注意到美丽对中 $a_i + a_j \equiv 0 \pmod x$，移项得 $a_j \equiv -a_i \pmod x$；同理有 $a_j \equiv a_i \pmod y$。则通过 $-a_i \mod x$ 和 $a_i \mod y$ 的值可以快速得到 $a_j \mod x$ 和 $a_j \mod y$ 的值，使用 `std::map` 进行统计即可。
+注意到美丽对中 $a_i + a_j \equiv 0 \pmod x$，移项得 $a_j \equiv - a_i \pmod x$；同理有 $a_j \equiv a_i \pmod y$。则通过 $-a_i \bmod x$ 和 $a_i \bmod y$ 的值可以快速得到 $a_j \bmod x$ 和 $a_j \bmod y$ 的值，使用 `std::map` 进行统计即可。
 
-时间复杂度为 $O(n \log n)$，可以通过本题。
+时间复杂度为 $O\left(n \log n\right)$，可以通过本题。
 
 ## 代码
 

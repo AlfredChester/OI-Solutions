@@ -8,9 +8,9 @@
 
 ## 分析思路
 
-类似 [P4168 [Violet] 蒲公英](https://www.luogu.com.cn/article/mtr91s0c) 一题，我们可以在 $O(n \sqrt n)$ 的时间复杂度内求解出第 $i$ 块到第 $j$ 块之间众数出现的次数 $mode_{i, j}$。
+类似 [P4168 [Violet] 蒲公英](https://www.luogu.com.cn/article/mtr91s0c) 一题，我们可以在 $O\left(n \sqrt n\right)$ 的时间复杂度内求解出第 $i$ 块到第 $j$ 块之间众数出现的次数 $mode_{i, j}$。
 
-由于本题空间限制较为严格，所以需要控制空间复杂度为 $O(n)$。
+由于本题空间限制较为严格，所以需要控制空间复杂度为 $O\left(n\right)$。
 
 具体实现，我们可以用 `std::vector<int> pos[N]`，其中 $pos[i]$ 表示所有值为 $i$ 的位置的集合。用 $pos2[i]$ 表示第 $i$ 个元素在 $pos[a[i]]$ 中的位置。
 
