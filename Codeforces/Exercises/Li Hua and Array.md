@@ -11,7 +11,7 @@
 有 $m\le 10^5$ 次操作 `o l r`，
 
 1. $o=1$ 时， $\forall\ l\le i\le r$，$a_i\gets\varphi(a_i)$；
-2. $o=2$ 时，找出使 $a_l=a_{l+1}\dots=a_r$ 的最小变化。在每次变化中，选择一个 $x\in[l,r],a_i\gets \varphi(a_i)$。该操作不会修改数列。
+2. $o=2$ 时，找出使 $a_l=a_{l+1}\dots=a_r$ 的最小变化。在每次变化中，选择一个 $x\in[l,r],a_x\gets \varphi(a_x)$。该操作不会修改数列。
 
 对于每个操作 $2$ 输出最小答案。
 
