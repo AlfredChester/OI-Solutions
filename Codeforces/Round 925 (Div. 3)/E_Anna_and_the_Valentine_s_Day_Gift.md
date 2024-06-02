@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) E - Anna and the Valentine's Day Gift 题解
+摘要：博弈论，数据结构，模拟
+
+[传送门：https://www.luogu.com.cn/problem/CF1931E](https://www.luogu.com.cn/problem/CF1931E)
 
 ## 题意
 
