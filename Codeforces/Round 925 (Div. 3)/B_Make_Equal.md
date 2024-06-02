@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) B - Make Equal 题解
+摘要：贪心，模拟
+
+[传送门：https://www.luogu.com.cn/problem/CF1931B](https://www.luogu.com.cn/problem/CF1931B)
 
 ## 题意
 
