@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) F - Chat Screenshots 题解
+摘要：图论，拓扑排序，dfs
+
+[传送门：https://www.luogu.com.cn/problem/CF1931F](https://www.luogu.com.cn/problem/CF1931F)
 
 ## 题意
 
