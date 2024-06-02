@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) G - Bicycles 题解
+摘要：最短路，分层图，拆点
+
+[传送门：https://www.luogu.com.cn/problem/CF1915G](https://www.luogu.com.cn/problem/CF1915G)
 
 ## 题意
 

@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) E - Romantic Glasses 题解
+摘要：数据结构，分类讨论，前缀和，统计
+
+[传送门：https://www.luogu.com.cn/problem/CF1915E](https://www.luogu.com.cn/problem/CF1915E)
 
 ## 题意
 

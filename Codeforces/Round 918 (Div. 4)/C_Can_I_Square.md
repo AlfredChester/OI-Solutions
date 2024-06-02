@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) C - Can I Square? 题解
+摘要：数学，模拟
+
+[传送门：https://www.luogu.com.cn/problem/CF1915C](https://www.luogu.com.cn/problem/CF1915C)
 
 ## 题意
 
@@ -6,7 +8,7 @@ $ t $ 组数据。每次给定一个长度为 $ n $ 的数组 $ a $，求其和�
 
 ## 分析思路
 
-题意基本已经告诉了我们解法。用代码判断完全平方数即可。
+由题，我们只要计算数列的和 $x$，判断 $x$ 是否为完全平方数，即 $\lfloor \sqrt x \rfloor ^ 2 = x$ 即可。
 
 ## 代码
 

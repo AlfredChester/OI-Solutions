@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) D - Unnatural Language Processing 题解
+摘要：字符串，模拟
+
+[传送门：https://www.luogu.com.cn/problem/CF1915D](https://www.luogu.com.cn/problem/CF1915D)
 
 ## 题意
 

@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) B - Not Quite Latin Square 题解
+摘要：位运算，模拟
+
+[传送门：https://www.luogu.com.cn/problem/CF1915B](https://www.luogu.com.cn/problem/CF1915B)
 
 ## 题意
 

@@ -1,4 +1,6 @@
-# Codeforces Round 918 (Div. 4) A - Odd One Out 题解
+摘要：位运算
+
+[传送门：https://www.luogu.com.cn/problem/CF1915A](https://www.luogu.com.cn/problem/CF1915A)
 
 ## 题意
 
