@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) D - Divisible Pairs 题解
+摘要：数据结构，统计
+
+[传送门：https://www.luogu.com.cn/problem/CF1931D](https://www.luogu.com.cn/problem/CF1931D)
 
 ## 题意
 
