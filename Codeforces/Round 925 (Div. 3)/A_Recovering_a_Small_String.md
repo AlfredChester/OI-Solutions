@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) A - Recovering a Small String 题解
+摘要：枚举
+
+[传送门：https://www.luogu.com.cn/problem/CF1931A](https://www.luogu.com.cn/problem/CF1931A)
 
 ## 题意
 
