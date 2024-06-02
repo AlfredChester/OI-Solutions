@@ -1,3 +1,4 @@
-nothing here.
+摘要：组合数学，统计
 
-Combination problem. Need 2 work harder.
+[传送门：https://www.luogu.com.cn/problem/CF1931G](https://www.luogu.com.cn/problem/CF1931G)
+
