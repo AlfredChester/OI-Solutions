@@ -1,4 +1,6 @@
-# Codeforces Round 925 (Div. 3) C - Make Equal Again 题解
+摘要：贪心
+
+[传送门：https://www.luogu.com.cn/problem/CF1931C](https://www.luogu.com.cn/problem/CF1931C)
 
 ## 题意
 
