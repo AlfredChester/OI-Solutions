@@ -10,7 +10,7 @@ except ImportError:
     __libs__ = ["subprocess", "loguru", "parse"]
     for name in __libs__:
         try:
-            system("pip install " + name)
+            system("pip3 install " + name)
         except Exception:
             continue
 
