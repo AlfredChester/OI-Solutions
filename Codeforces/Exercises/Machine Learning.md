@@ -21,7 +21,7 @@
 
 于是问题转化为了求 $cnt_i$ 中第一个 $0$ 的位置。注意到 $cnt_i$ 中第一个 $0$ 的位置的上界为 $O\left(\sqrt n\right)$，所以暴力查找即可。
 
-时间复杂度 $O\left(\frac{n^2}{\sqrt_{3} m}\right)$，可以通过本题。
+时间复杂度 $O\left(\frac{n^2}{\sqrt[3] m}\right)$，可以通过本题。
 
 ## 代码
 
