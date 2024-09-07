@@ -1,6 +1,6 @@
-摘要：无
+摘要：可撤销并查集，生成树
 
-[传送门：https://www.luogu.com.cn/problem/Pxxxx](https://www.luogu.com.cn/problem/Pxxxx)
+[传送门：https://www.luogu.com.cn/problem/CF891C](https://www.luogu.com.cn/problem/CF891C)
 
 ## 题意
 
