@@ -34,6 +34,8 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
 
+要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。
+
 ## 数学/数论技巧
 
 有二元对要处理线性基，可以先 a * 2^k | b 跑线性基，消成 log 对之后再试试暴力。
