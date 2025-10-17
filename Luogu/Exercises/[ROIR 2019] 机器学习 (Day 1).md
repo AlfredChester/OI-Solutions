@@ -73,8 +73,8 @@ int main(int argc, char const *argv[]) {
         auto E = S.lower_bound(mx[i]);
         for (auto it = S.begin(); it != E; it++) {
             for (int k = 0; k < V; k++) {
-                sum[k] += P - dp[*it][k];
-                if (sum[k] >= P) sum[k] -= P;
+                sum[k] -= dp[*it][k];
+                if (sum[k] < 0) sum[k] += P;
             }
         }
         S.erase(S.begin(), E);
