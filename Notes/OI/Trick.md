@@ -2,7 +2,7 @@
 
 ## 图论技巧
 
-动态维护直径——考虑并查集，带权为当前联通块的直径的两端点 $u_i, v_i$。合并时直径为 $\max \{\mathrm{dis}(u_x, v_x), \mathrm{dis}(u_x, v_y), \mathrm{dis}(u_y, v_x), \mathrm{dis}(u_y, v_y)\}$。
+动态维护直径——考虑并查集，带权为当前联通块的直径的两端点 $u_i, v_i$。合并时直径为 $\max \{\mathrm{dis}(u_x, v_x), \mathrm{dis}(u_x, v_y), \mathrm{dis}(u_y, v_x), \mathrm{dis}(u_y, v_y)\}$。事实上这是一类可合并信息，可以考虑任何支持合并信息的数据结构。
 
 两个东西不能一起选的时候可以连二分图跑最大匹配。
 
@@ -14,7 +14,7 @@ Dilworth 定理：最小链覆盖数等于最大反链大小。
 
 对于一维结构（或准一维结构）上的类哈密顿问题，可以考虑拆边的贡献。例题：https://www.luogu.com.cn/problem/P10712
 
-图上路径异或和：使用生成树的前缀和 $f_u$。$A = \{ f_u \oplus w \oplus f_v \}$ 的基，则 $1 -> n$ 的路径的线性基为 $B = \{ f_n \oplus x \in A \}$。
+图上路径异或和：使用生成树的前缀和 $f_u$。$A = \{ f_u \oplus w \oplus f_v \}$ 的基，则 $1 \to n$ 的路径的线性基为 $B = \{ f_n \oplus x \in A \}$。
 
 树上两个相邻的点一定有一个点是另一个点的父亲，可以用来保证均摊复杂度是对的。https://www.luogu.com.cn/problem/P12698
 
