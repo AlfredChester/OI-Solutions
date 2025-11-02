@@ -44,6 +44,10 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 
 一个置换能组成的排列个数为 $\mathrm{lcm} \space c_i$，其中 $c_i$ 是每个环的长度。置换有显然的性质是 https://www.luogu.com.cn/problem/P12553
 
+## 字符串技巧
+
+一个串是另一个串前后缀可以转化为 Trie 上 dfn 区间。
+
 ## 优化技巧
 
 分治结构每层不同的长度个数不超过 $2$。
