@@ -36,6 +36,8 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 
 要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。
 
+区间能由若干区间拼起来，可以转化为区间起点 - 1 向终点连边，转可达性。[CF1827C](https://www.luogu.com.cn/problem/solution/CF1827C)
+
 ## 数学/数论技巧
 
 有二元对要处理线性基，可以先 $a \times 2^k + b$ 跑线性基，消成 log 对之后再试试暴力。
