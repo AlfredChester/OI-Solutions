@@ -18,6 +18,8 @@ Dilworth 定理：最小链覆盖数等于最大反链大小。
 
 树上两个相邻的点一定有一个点是另一个点的父亲，可以用来保证均摊复杂度是对的。https://www.luogu.com.cn/problem/P12698
 
+ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)
+
 ## 数据结构技巧
 
 查询区间出现元素种类相关：扫描线。然后 lst - 1, cur + 1。
@@ -49,6 +51,8 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 ## 字符串技巧
 
 一个串是另一个串前后缀可以转化为 Trie 上 dfn 区间。
+
+回文串可以考虑最短回文串拼接。https://www.luogu.com.cn/article/uy6g6946
 
 ## 优化技巧
 
