@@ -32,6 +32,8 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 
 区间加区间除可以嗯暴力：区间 max, min 除这个值相同直接变成加减操作。
 
+对于二元对 $(a, b)$ 要求某某 $b \le a$ 可以转化为若干 $(b, a]$ 区间能覆盖什么什么。
+
 ## 动态规划技巧
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
