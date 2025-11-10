@@ -63,3 +63,5 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 卡空间的时候（经常是多了一个 $\log$）可以考虑能不能通过跑 $\log$ 次解决。也可能用在图连通性上。、
 
 能不存下来的东西就不要存下来，内存访问永远是最慢的。
+
+$\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
