@@ -56,6 +56,8 @@ Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn
 
 回文串可以考虑最短回文串拼接。https://www.luogu.com.cn/article/uy6g6946
 
+看一下 [NOI2014] 动物园。
+
 ## 优化技巧
 
 分治结构每层不同的长度个数不超过 $2$。
