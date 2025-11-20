@@ -20,7 +20,7 @@ Dilworth 定理：最小链覆盖数等于最大反链大小。
 
 树上两个相邻的点一定有一个点是另一个点的父亲，可以用来保证均摊复杂度是对的。https://www.luogu.com.cn/problem/P12698
 
-ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)
+ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，甚至可以在线，https://www.cnblogs.com/binbin200811/p/18698464
 
 删边最短路：[CF1163F](https://www.luogu.com.cn/article/m8y0e77j)
 
