@@ -75,3 +75,5 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 能不存下来的东西就不要存下来，内存访问永远是最慢的。
 
 $\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
+
+随机序列的期望前缀最大值有 $O(\log n)$ 个。https://xinyoudui.com/ac/contest/74700C1460008E9073E074/problem/42679
