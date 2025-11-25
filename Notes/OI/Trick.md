@@ -24,6 +24,8 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 
 删边最短路：[CF1163F](https://www.luogu.com.cn/article/m8y0e77j)
 
+看看欧拉（回）路。
+
 ## 数据结构技巧
 
 查询区间出现元素种类相关：扫描线。然后 lst - 1, cur + 1。
