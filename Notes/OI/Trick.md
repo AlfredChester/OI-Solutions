@@ -44,6 +44,8 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 
 区间可以由前缀的后缀或者后缀的前缀刻画。https://www.luogu.com.cn/article/2ns79osf
 
+莫队二离，出现次数相关 https://loj.ac/p/6164。
+
 ## 动态规划技巧
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
