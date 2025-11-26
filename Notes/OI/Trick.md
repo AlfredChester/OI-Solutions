@@ -87,3 +87,5 @@ $\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
 `unsigned short` 两个乘起来会先转 `int`，所以可能溢出。
 
 [什么是根号？什么是 $\log$？](https://www.cnblogs.com/Charlie-Vinnie/p/16491878.html)
+
+边双要记录边的编号。
