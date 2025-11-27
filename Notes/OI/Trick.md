@@ -48,6 +48,8 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 
 https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每层兄弟节点交至多为 $1$。
 
+领域加转重儿子差分。https://www.luogu.com.cn/problem/solution/CF1254D
+
 ## 动态规划技巧
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
