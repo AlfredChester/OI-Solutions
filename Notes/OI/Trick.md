@@ -46,6 +46,8 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 
 莫队二离，出现次数相关 https://loj.ac/p/6164。
 
+https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每层兄弟节点交至多为 $1$。
+
 ## 动态规划技巧
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
