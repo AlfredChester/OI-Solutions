@@ -62,6 +62,8 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 
 一个置换能组成的排列个数为 $\mathrm{lcm} \space c_i$，其中 $c_i$ 是每个环的长度。置换有显然的性质是 https://www.luogu.com.cn/problem/P12553
 
+$\displaystyle \oplus_{i = 1}^n i$，每四个分别是 $x, 1, x + 3, 0$。
+
 ## 字符串技巧
 
 一个串是另一个串前后缀可以转化为 Trie 上 dfn 区间。
