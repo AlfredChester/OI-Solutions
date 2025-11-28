@@ -60,7 +60,7 @@ https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每
 
 正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
 
-要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。
+要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。https://www.luogu.com.cn/problem/P11498
 
 区间能由若干区间拼起来，可以转化为区间起点 - 1 向终点连边，转可达性。[CF1827C](https://www.luogu.com.cn/problem/solution/CF1827C)
 
