@@ -14,7 +14,7 @@ Dilworth 定理：最小链覆盖数等于最大反链大小。
 
 处理树上有交的路径的时候，可以考虑 LCA。
 
-对于一维结构（或准一维结构）上的类哈密顿问题，可以考虑拆边的贡献。例题：https://www.luogu.com.cn/problem/P10712
+对于一维结构（或准一维结构）上的类哈密顿问题，可以考虑拆边的贡献（树也可以）。例题：https://www.luogu.com.cn/problem/P10712，https://xinyoudui.com/ac/contest/74700C1390008E9073E062/problem/42674。
 
 图上路径异或和：使用生成树的前缀和 $f_u$。$A = \{ f_u \oplus w \oplus f_v \}$ 的基，则 $1 \to n$ 的路径的线性基为 $B = \{ f_n \oplus x \in A \}$。
 
@@ -25,6 +25,8 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 删边最短路：[CF1163F](https://www.luogu.com.cn/article/m8y0e77j)
 
 看看欧拉（回）路。
+
+建辅助点模拟决策过程：https://www.luogu.com.cn/problem/P9377。
 
 ## 数据结构技巧
 
