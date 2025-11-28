@@ -2,7 +2,9 @@
 
 ## 图论技巧
 
-最大匹配有时候可能只跟集合大小有关，这种时候就比较牛。例题：https://www.luogu.com.cn/problem/P9104
+最大匹配有时候可能只跟集合大小有关，这种时候就比较牛。例题：https://www.luogu.com.cn/problem/P9104。
+
+还有就是最大匹配等于 $n$ 减去最大独立集大小，等于左部点数减去最大临域差。 
 
 动态维护直径——考虑并查集，带权为当前联通块的直径的两端点 $u_i, v_i$。合并时直径为 $\max \{\mathrm{dis}(u_x, v_x), \mathrm{dis}(u_x, v_y), \mathrm{dis}(u_y, v_x), \mathrm{dis}(u_y, v_y)\}$。事实上这是一类可合并信息，可以考虑任何支持合并信息的数据结构。
 
