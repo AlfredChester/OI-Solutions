@@ -40,7 +40,7 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 
 线段树二分见 jiangly 模板。你可能还得看看图论相关。
 
-Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn/article/xvbc3rk8。通常用于处理一类调整问题。
+Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn/article/84mah7rg。通常用于处理一类调整问题。提示：维护的是 $f_i(j) = kj + b$ 的 $k$。$b$ 通常可以直接加（分讨出来斜率为 $0$ 段上下平移的偏移量）。
 
 区间加区间除可以嗯暴力：区间 $\max - \frac \max v = \min - \frac{\min}{v}$ 直接变成加减操作。
 
@@ -50,7 +50,7 @@ mex 与 LCA 支配对。看套娃和 rldcot。
 
 区间可以由前缀的后缀或者后缀的前缀刻画。https://www.luogu.com.cn/article/2ns79osf
 
-莫队二离，出现次数相关 https://loj.ac/p/6164。
+莫队二离，出现次数相关 https://loj.ac/p/6164
 
 https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每层兄弟节点交至多为 $1$。
 
@@ -58,7 +58,7 @@ https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每
 
 ## 动态规划技巧
 
-正着跑 dp 可能和倒着跑复杂度不一样。https://newoj.cyez.cc:18160/d/problemset/p/1499
+正着跑 dp 可能和倒着跑复杂度不一样。例如这个例子告诉我们最大前缀和是可以倒着跑的。https://newoj.cyez.cc:18160/d/problemset/p/1499
 
 要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。https://www.luogu.com.cn/problem/P11498
 
@@ -66,7 +66,7 @@ https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每
 
 ## 数学/数论技巧
 
-有二元对要处理线性基，可以先 $a \times 2^k + b$ 跑线性基，消成 log 对之后再试试暴力。
+有二元对要处理线性基，可以先 $a \times 2^k + b$ 跑线性基，消成 log 对之后再试试暴力。https://www.luogu.com.cn/problem/AT_abc249_g
 
 对于 $a, b, c \in \mathbb{Z}$，$\frac{1}{a}+ \frac{1}{b} = \frac{1}{c} \implies ac + bc - ab = 0 \implies c ^ 2=(a-c)(b-c)$，可以做一些数论的东西。例题：https://www.luogu.com.cn/problem/P4844
 
@@ -86,7 +86,7 @@ $\displaystyle \oplus_{i = 1}^n i$，每四个分别是 $x, 1, x + 3, 0$。
 
 分治结构每层不同的长度个数不超过 $2$。
 
-卡空间的时候（经常是多了一个 $\log$）可以考虑能不能通过跑 $\log$ 次解决。也可能用在图连通性上。、
+卡空间的时候（经常是多了一个 $\log$）可以考虑能不能通过跑 $\log$ 次解决。也可能用在图连通性上。
 
 能不存下来的东西就不要存下来，内存访问永远是最慢的。
 
@@ -101,3 +101,5 @@ $\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
 [什么是根号？什么是 $\log$？](https://www.cnblogs.com/Charlie-Vinnie/p/16491878.html)
 
 边双要记录边的编号。
+
+任何情况没道理用 `std::unordered_map`。`__gnu_pbds::gp_hash_table` 是无痛更好上位。
