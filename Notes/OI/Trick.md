@@ -2,21 +2,21 @@
 
 ## 图论技巧
 
-最大匹配有时候可能只跟集合大小有关，这种时候就比较牛。例题：https://www.luogu.com.cn/problem/P9104。
+Dilworth 定理：最小链覆盖数等于最大反链大小。
+
+两个东西不能一起选的时候可以连二分图跑最大匹配。
+
+最大匹配有时候可能只跟集合大小有关，这种时候就比较牛，甚至可能动态维护。例题：https://www.luogu.com.cn/problem/P9104
 
 还有就是最大匹配等于 $n$ 减去最大独立集大小，等于左部点数减去最大临域差。 
 
 动态维护直径——考虑并查集，带权为当前联通块的直径的两端点 $u_i, v_i$。合并时直径为 $\max \{\mathrm{dis}(u_x, v_x), \mathrm{dis}(u_x, v_y), \mathrm{dis}(u_y, v_x), \mathrm{dis}(u_y, v_y)\}$。事实上这是一类可合并信息，可以考虑任何支持合并信息的数据结构。
 
-两个东西不能一起选的时候可以连二分图跑最大匹配。
-
-Dilworth 定理：最小链覆盖数等于最大反链大小。
-
 独立集计数考虑图的性质：[HNOI2012] 集合选数
 
-处理树上有交的路径的时候，可以考虑 LCA。
+处理树上有交的路径的时候，可以考虑 LCA。https://www.luogu.com/article/wpm15h1x
 
-对于一维结构（或准一维结构）上的类哈密顿问题，可以考虑拆边的贡献（树也可以）。例题：https://www.luogu.com.cn/problem/P10712，https://xinyoudui.com/ac/contest/74700C1390008E9073E062/problem/42674。
+对于一维结构（或准一维结构）上的类哈密顿问题，可以考虑拆边的贡献（树也可以）。例题：https://www.luogu.com.cn/problem/P10712 https://xinyoudui.com/ac/contest/74700C1390008E9073E062/problem/42674
 
 图上路径异或和：使用生成树的前缀和 $f_u$。$A = \{ f_u \oplus w \oplus f_v \}$ 的基，则 $1 \to n$ 的路径的线性基为 $B = \{ f_n \oplus x \in A \}$。
 
