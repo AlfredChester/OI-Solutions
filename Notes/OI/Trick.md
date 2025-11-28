@@ -28,6 +28,8 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 
 建辅助点模拟决策过程：https://www.luogu.com.cn/problem/P9377。
 
+强强图论建模：https://www.luogu.com.cn/article/q5qnsttz。
+
 ## 数据结构技巧
 
 查询区间出现元素种类相关：扫描线。然后 lst - 1, cur + 1。
