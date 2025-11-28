@@ -42,7 +42,7 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 
 Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn/article/xvbc3rk8。通常用于处理一类调整问题。
 
-区间加区间除可以嗯暴力：区间 max, min 除这个值相同直接变成加减操作。
+区间加区间除可以嗯暴力：区间 $\max - \frac \max v = \min - \frac{\min}{v}$ 直接变成加减操作。
 
 对于二元对 $(a, b)$ 要求某某 $b \le a$ 可以转化为若干 $(b, a]$ 区间能覆盖什么什么。
 
