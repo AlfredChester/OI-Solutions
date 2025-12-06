@@ -73,12 +73,12 @@ debug: debugc test1 test2
 
 ### 限制内存
 
-可以通过 `ulimit -Sv <KB>` 来限制程序的内存使用，例如：
+可以通过 `ulimit -sv <KB>` 来限制程序的内存使用（并开大栈空间），例如：
 
 ```makefile
 test1:
     cp tree1.in tree.in
-    ulimit -Sv 524288; ./a.out # 注意 ulimit 必须写在这一行，否则没用
+    ulimit -sv 524288; ./a.out # 注意 ulimit 必须写在这一行，否则没用
     diff -Zb tree1.ans tree.out
 ```
 
@@ -106,13 +106,15 @@ brute:
 
 compare:
     ./gen > tree.in
-    ulimit -Sv 524288; time ./a.out
+    ulimit -sv 524288; time ./a.out
     ./brute < tree.in > tree.ans # 可以不加 freopen 使用管道符
     diff -Zb tree.ans tree.out
     make compare # 递归调用 compare 继续对拍，直到出错
 ```
 
 使用 `make compile gen brute compare` 即可开始对拍。
+
+附笔者[在 NOIP 2025 tree 一题中使用的 makefile](https://www.luogu.com.cn/paste/ygxx1qik) 作为参考。
 
 ## 结语
 
