@@ -42,7 +42,7 @@ ST 表优化建图：[SCOI 萌萌哒](https://www.luogu.com.cn/problem/P3295)，
 
 Slope Trick: 见 [APIO2016] 烟花表演的题解以及 https://www.luogu.com.cn/article/84mah7rg。通常用于处理一类调整问题。提示：维护的是 $f_i(j) = kj + b$ 的 $k$。$b$ 通常可以直接加（分讨出来斜率为 $0$ 段上下平移的偏移量）。
 
-区间加区间除可以嗯暴力：区间 $\max - \frac \max v = \min - \frac{\min}{v}$ 直接变成加减操作。时间复杂度 $O(m (\log n + \log V))$。
+区间加区间除可以嗯暴力：区间 $\max - \frac \max v = \min - \frac{\min}{v}$ 直接变成加减操作。时间复杂度 $O(m \log n \log V)$。
 
 对于二元对 $(a, b)$ 要求某某 $b \le a$ 可以转化为若干 $(b, a]$ 区间能覆盖什么什么。
 
