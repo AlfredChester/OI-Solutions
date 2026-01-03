@@ -58,7 +58,7 @@ https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每
 
 ## 动态规划技巧
 
-正着跑 dp 可能和倒着跑复杂度不一样。例如这个例子告诉我们最大前缀和是可以倒着跑的。https://newoj.cyez.cc:18160/d/problemset/p/1499
+正着跑 dp 可能和倒着跑复杂度不一样。例如这个例子告诉我们最大前缀和是可以倒着跑的。https://cyezoi.cn/d/problemset/p/1499
 
 要求每个区间之间必须包含一个分界点可以转化为没有两个分界点之间包含了一个区间。https://www.luogu.com.cn/problem/P11498
 

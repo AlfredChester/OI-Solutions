@@ -1,6 +1,6 @@
 摘要：数学，组合，结论
 
-[传送门：https://newoj.cyez.cc:18160/d/problemset/p/438](https://newoj.cyez.cc:18160/d/problemset/p/438)
+[传送门：https://cyezoi.cn/d/problemset/p/438](https://cyezoi.cn/d/problemset/p/438)
 
 ## 题意
 

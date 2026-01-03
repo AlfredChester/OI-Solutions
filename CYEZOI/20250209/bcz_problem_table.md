@@ -8,7 +8,7 @@
 
 摘要：dp，搜索，状态压缩
 
-[线路1：https://newoj.cyez.cc:18160/d/problemset/p/401](https://newoj.cyez.cc:18160/d/problemset/p/401)
+[线路1：https://cyezoi.cn/d/problemset/p/401](https://cyezoi.cn/d/problemset/p/401)
 
 [线路2：https://www.luogu.com.cn/problem/P5972](https://www.luogu.com.cn/problem/P5972)
 
@@ -41,7 +41,7 @@ $$
 
 摘要：数学，数据结构
 
-[线路1：https://newoj.cyez.cc:18160/d/problemset/p/402](https://newoj.cyez.cc:18160/d/problemset/p/402)
+[线路1：https://cyezoi.cn/d/problemset/p/402](https://cyezoi.cn/d/problemset/p/402)
 
 ##### 题意
 
@@ -49,7 +49,7 @@ $$
 
 ##### 分析思路
 
-题意等价于存在一个正整数 $k$，使得：
+题意等价于存在一个整数 $k$，使得：
 
 $$
 \sum_{i = 1}^n c_i x^{a_i} = k\sum_{i = 0}^{m - 1} x^i = k \times \frac{x^m - 1}{x - 1} (x \ne 1)
@@ -62,7 +62,7 @@ f(x) = (x - 1) \sum_{i = 1}^n c_i x^{a_i}  = k(x^m - 1)
 $$
 
 
-有 $x^m - 1 \equiv 0 \rArr x^m \equiv 1 \rArr x^{a \bmod m} \equiv x^a \pmod {x^m - 1}$，我们把指数都 $a_i \gets a_i\bmod m$，左边的式子值域就在 $[-nx^{m - 1}, nx^{m - 1}]$ 之间，先把无解判断掉（$f(x)$ 恒等于 $0$），$f(x) \ge x^m - 1 \rArr x \le n$，枚举 $x$。发现 $x^m - 1$ 可以看作一个 $x$ 进制下 $m$ 位都是 $x - 1$ 的数，指数取模之后 $f'(x) = \sum_{i = 0}^{m - 1} f_ix^i$，如果对于一个给定的 $x$，其实可以进位。具体的，找到最大或最小的 $f_i$，判断 $|f_i| \ge x$，新的指数大于等于 $m$ 继续加到常数项，这样最多只会进行调和级数次进位，配合可回滚的数据结构时间复杂度 $O(n \log^2 n)$。
+有 $x^m - 1 \equiv 0 \rArr x^m \equiv 1 \rArr x^{a \bmod m} \equiv x^a \pmod {x^m - 1}$，我们把指数都 $a_i \gets a_i\bmod m$，左边的式子值域就在 $[-nx^{m - 1}, nx^{m - 1}]$ 之间，先把无解判断掉（$f(x)$ 恒等于 $0$），$|f(x)| \ge x^m - 1 \rArr x \le n$，枚举 $x$。发现 $x^m - 1$ 可以看作一个 $x$ 进制下 $m$ 位都是 $x - 1$ 的数，指数取模之后 $f'(x) = \sum_{i = 0}^{m - 1} f_ix^i$，如果对于一个给定的 $x_0$，其实可以进位。具体的，找到最大或最小的 $f_i$，判断 $|f_i| \ge x_0$，新的指数大于等于 $m$ 继续加到常数项，这样最多只会进行调和级数次进位，配合可回滚的数据结构时间复杂度 $O(n \log^2 n)$。
 
 #### C. 消逝的传承
 
@@ -70,7 +70,7 @@ Too hard，学习一些 poly 科技回来再补。
 
 ## $02.03$
 
-### KLC 大神讲题/kl /kl
+### KLC 大神讲题 /bx /bx
 
 #### [Ynoi Easy Round 2025] TEST_176
 
@@ -110,13 +110,13 @@ Too hard，明天补。
 
 #### A. [HNOI2013] 游走
 
-[线路1：https://newoj.cyez.cc:18160/d/problemset/p/412](https://newoj.cyez.cc:18160/d/problemset/p/412)
+[线路1：https://cyezoi.cn/d/problemset/p/412](https://cyezoi.cn/d/problemset/p/412)
 
 板子题，不多赘述
 
 #### B. [HNOI2011] XOR和路径
 
-[线路1：https://newoj.cyez.cc:18160/d/problemset/p/413](https://newoj.cyez.cc:18160/d/problemset/p/413)
+[线路1：https://cyezoi.cn/d/problemset/p/413](https://cyezoi.cn/d/problemset/p/413)
 
 #### 题意
 
@@ -132,7 +132,7 @@ Too hard，明天补。
 
 #### C. JC的小苹果
 
-[线路1：https://newoj.cyez.cc:18160/d/problemset/p/414](https://newoj.cyez.cc:18160/d/problemset/p/414)
+[线路1：https://cyezoi.cn/d/problemset/p/414](https://cyezoi.cn/d/problemset/p/414)
 
 #### 题意
 
@@ -196,7 +196,7 @@ Trie 加堆贪心即可。
 
 摘要：数学，组合，结论
 
-[传送门：https://newoj.cyez.cc:18160/d/problemset/p/438](https://newoj.cyez.cc:18160/d/problemset/p/438)
+[传送门：https://cyezoi.cn/d/problemset/p/438](https://cyezoi.cn/d/problemset/p/438)
 
 ##### 题意
 
