@@ -56,6 +56,8 @@ https://atcoder.jp/contests/abc348/tasks/abc348_g 时间复杂度对是因为每
 
 临域加转重儿子差分。https://www.luogu.com.cn/problem/solution/CF1254D
 
+维护区间 $\max - \min$ 可以单调栈。
+
 ## 动态规划技巧
 
 正着跑 dp 可能和倒着跑复杂度不一样。例如这个例子告诉我们最大前缀和是可以倒着跑的。https://cyezoi.cn/d/problemset/p/1499
