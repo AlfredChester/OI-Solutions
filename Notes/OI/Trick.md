@@ -100,6 +100,8 @@ $\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
 
 ## 其他技巧
 
+$a + b = a\ \mathrm{xor}\ b + 2(a\ \mathrm{and}\ b)$
+
 `unsigned short` 两个乘起来会先转 `int`，所以可能溢出。
 
 [什么是根号？什么是 $\log$？](https://www.cnblogs.com/Charlie-Vinnie/p/16491878.html)
