@@ -78,6 +78,8 @@ $\displaystyle \oplus_{i = 1}^n i$，每四个分别是 $x, 1, x + 3, 0$。
 
 $x$ 的二进制第 $k$ 位为 $1 \implies x \bmod 2^{k + 1} \ge 2^k$。 
 
+$\max(a, b) = \frac{| a + b| + |a - b|}{2}$，曼哈顿转切比雪夫，https://vjudge.net/article/7799
+
 ## 字符串技巧
 
 一个串是另一个串前后缀可以转化为 Trie 上 dfn 区间。
