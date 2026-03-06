@@ -100,6 +100,8 @@ $\max(a, b) = \frac{| a + b| + |a - b|}{2}$，曼哈顿转切比雪夫，https:/
 
 $\mathrm{MEX}(p[l : r]) = \min (\mathrm{MEX}(p[1 : r], \mathrm{MEX}(p[l : n]))$
 
+$\mathrm{MEX}(p[1 : r]) = \min(p[r + 1: n])$
+
 随机序列的期望前缀最大值有 $O(\log n)$ 个。https://xinyoudui.com/ac/contest/74700C1460008E9073E074/problem/42679
 
 ## 其他技巧
